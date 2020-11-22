@@ -24,8 +24,9 @@ const renderHeader = () => {
 }
 
 const renderBody = () => {
+  
   return interactions && interactions.map(({item, index}) => { 
-    const {interactionTypeGroup[0].interactionType[0].minConceptItem} = item
+    
     return (  
           
       <tr key={index.rxcui}>
